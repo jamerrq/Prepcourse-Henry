@@ -1,2 +1,2 @@
 # Prepcourse-Henry
-Repositorio de prueba para el prepcourse de Henry
+Prueba de cómo crear un repositorio y clonarlo localmente a mi pc.
