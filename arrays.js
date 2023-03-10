@@ -1,3 +1,51 @@
+// var palabra = "Henri";
+// var palabraSeparada = palabra.split("");
+
+// console.log(palabraSeparada);
+
+// palabraSeparada.pop();
+// palabraSeparada.push("y");
+
+// var palabraArreglada = palabraSeparada.join("");
+// console.log(palabraArreglada);
+
+
+var numeros = [1, 2, 3, 4];
+
+numeros.forEach((num) => {
+    if(num == 3){
+        console.log(num);
+    }
+});
+
+var masUno = numeros.map((num) => {
+    return num + 1;
+});
+console.log(masUno);
+var numeros = [1, 2, 3, 4, 5];
+
+for(var i = 0; i < numeros.length; ++i){
+    console.log(numeros[i]);
+}
+
+
+function encontrarLetraP(string){
+    var letras = string.split("");
+    for(var i = 0; i < letras.length; ++i){
+        if(letras[i] === 'p'){
+            console.log("Si contiene la letra p");
+        }
+    }
+}
+encontrarLetraP("Javascript");
+encontrarLetraP("Henry");
+
+
+var arr = [];
+while(arr.length < 5){
+    arr.push("BOOM");
+}
+console.log(arr);
 // var listaDeCompras = [];
 // listaDeCompras[3] = "Tomates";
 // listaDeCompras[1] = "Lechuga";
